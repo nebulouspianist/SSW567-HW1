@@ -24,7 +24,7 @@ def TypeOfTriangle(a,b,c):
         return "right"
 
     else:
-        return "normal"
+        return "scalene"
 
 
 
@@ -34,7 +34,7 @@ class Test(unittest.TestCase):
         self.assertEqual("right", TypeOfTriangle(3,4,5))
         self.assertEqual("equilateral", TypeOfTriangle(1,1,1))
         self.assertEqual("isosceles", TypeOfTriangle(3,5,3))
-        self.assertEqual("normal",TypeOfTriangle(7,6,5))
+        self.assertEqual("scalene",TypeOfTriangle(7,6,5))
 
     def test2(self):
         self.assertEqual("not a triangle", TypeOfTriangle(9,1,1))

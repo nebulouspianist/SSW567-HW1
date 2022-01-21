@@ -4,7 +4,7 @@ import unittest
 
 list = []
 
-
+# test command
 
 def TypeOfTriangle(a,b,c):
     list = [a,b,c]
